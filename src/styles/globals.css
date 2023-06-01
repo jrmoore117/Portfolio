@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 font-montserrat text-gray-950;
+}
+
+:root {
+  --padding-y-gap: 3rem;
+  --padding-x-gap: 0.938rem;
+  --layoutWidth: 50rem;
+  --paddingTop: 5rem;
+  --paddingBottom: 5rem;
+  --svg-path-opacity: 1;
+
+  @screen md {
+    & {
+      --padding-y-gap: 6rem;
+      --padding-x-gap: 2.75rem;
+    }
+  }
+
+  @screen lg {
+    & {
+      --padding-y-gap: 10rem;
+    }
+  }
+}
+
+.padding-x-gap {
+  padding-left: var(--padding-x-gap);
+  padding-right: var(--padding-x-gap);
+}
+
+.main-container {
+  @apply relative w-full mx-auto padding-x-gap;
+  max-width: calc(var(--layoutWidth) + 2 * var(--padding-x-gap));
+}
+
+.h1 {
+  @apply font-bebas-neue font-bold text-7xl;
+}
+
+.h2 {
+  @apply font-bebas-neue font-bold text-5xl;
+}
+
+.h3 {
+  @apply font-bebas-neue font-bold text-4xl;
+}
+
+.h4 {
+  @apply font-bebas-neue font-bold text-3xl;
+}
+
+.h5 {
+  @apply font-bebas-neue font-bold text-2xl;
+}
+
+.h6 {
+  @apply font-bebas-neue font-bold text-xl;
+}
+
+.profile-icon {
+  @apply hover:text-blue-700 hover:cursor-pointer transition duration-200;
+}
+
+.project-card {
+ @apply flex mt-10 w-full sm:h-64 h-[19.5rem] overflow-hidden bg-gray-200 rounded-lg cursor-pointer hover:shadow-xl transition duration-200;
+}
+
+.project-card:hover .project-title {
+  @apply text-blue-700 transition duration-200;
+}
+
+.project-info {
+  @apply m-4 ml-0 w-4/6;
+}
+
+.project-title {
+ @apply h4;
+}
+
+.project-technology {
+  @apply mt-2 mr-2 px-1 py-0.5 border border-black rounded text-xs;
+}
+
+.project-image-wrapper {
+  @apply m-4 w-2/6;
+}
+
+.project-image {
+  @apply w-full h-auto rounded shadow;
+}

@@ -12,6 +12,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        'bebas-neue': ['var(--font-bebas-neue)'],
+        'montserrat': ['var(--font-montserrat)'],
+      }
     },
   },
   plugins: [],
