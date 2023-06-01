@@ -34,6 +34,8 @@ export default function Home() {
         <h2 className='h2'>Portfolio</h2>
 
         {projects && projects.map(({ title, description, technologies, image, link }) => (
+          /* https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#async-and-await-in-server-components */
+          /* @ts-expect-error Async Server Component */
           <ProjectCard
             key={title}
             title={title}
