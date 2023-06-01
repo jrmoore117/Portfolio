@@ -1,9 +1,4 @@
-import guidesImage from '../../public/images/guides.png';
-import poweredByClearbitImage from '../../public/images/powered-by-clearbit.png';
-import tackleImage from '../../public/images/tackle.png';
-import clearbitForBusinessImage from '../../public/images/clearbit-for-business.png';
-import captureImage from '../../public/images/capture.png';
-
+// image.src paths are formatted for use with fs.readFile in usePlaceholder
 const projects = [
     {
       "title": "Clearbit Guides",
@@ -11,7 +6,7 @@ const projects = [
       "technologies": ["Contentful CMS", "Next.js", "TypeScript", "Tailwind CSS"
         ],
       "image": {
-        "src": guidesImage,
+        "src": "./public/images/guides.png",
         "alt": "clearbit guides landing page"
         },
       "link": "https://www.clearbit.com/resources/guides"
@@ -22,7 +17,7 @@ const projects = [
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS"
         ],
       "image": {
-        "src": poweredByClearbitImage,
+        "src": "./public/images/powered-by-clearbit.png",
         "alt": "powered by clearbit landing page"
         },
       "link": "https://www.clearbit.com/partners/powered-by-clearbit"
@@ -33,7 +28,7 @@ const projects = [
       "technologies": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"
         ],
       "image": {
-        "src": tackleImage,
+        "src": "./public/images/tackle.png",
         "alt": "tackle docs"
         },
       "link": "https://tackle.vercel.app"
@@ -44,7 +39,7 @@ const projects = [
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS"
         ],
       "image": {
-        "src": clearbitForBusinessImage,
+        "src": "./public/images/clearbit-for-business.png",
         "alt": "clearbit capture landing page"
         },
       "link": "https://www.clearbit.com/lp/use-cases/clearbit-for-business"
@@ -55,7 +50,7 @@ const projects = [
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS"
         ],
       "image": {
-        "src": captureImage,
+        "src": "./public/images/capture.png",
         "alt": "clearbit capture landing page"
         },
       "link": "https://www.clearbit.com/platform/capture"
