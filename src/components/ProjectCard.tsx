@@ -13,7 +13,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ title, description, technologies, image, link }: ProjectCardProps) => (
-  <Link href={link} target='blank'>
+  <Link href={link} target='blank' className='w-full'>
     <div className='project-card'>
       <div className='project-image-wrapper'>
         <Image src={image.src} alt={image.alt} className='project-image' />
