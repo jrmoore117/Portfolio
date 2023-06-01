@@ -63,7 +63,7 @@ body {
 }
 
 .profile-icon {
-  @apply hover:text-blue-700 hover:cursor-pointer transition duration-200;
+  @apply hover:text-blue-600 hover:cursor-pointer transition duration-200;
 }
 
 .project-card {
@@ -71,7 +71,7 @@ body {
 }
 
 .project-card:hover .project-title {
-  @apply text-blue-700 transition duration-200;
+  @apply text-blue-600 transition duration-200;
 }
 
 .project-info {

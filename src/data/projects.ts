@@ -35,7 +35,7 @@ const projects = [
     },
     {
       "title": "Clearbit for Business",
-      "description": "Landing page introducing Clearbit's entry-level product plan",
+      "description": "Landing page introducing Clearbit's entry-level product plan.",
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS"
         ],
       "image": {
