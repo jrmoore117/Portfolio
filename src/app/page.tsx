@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="font-bebas-neue font-bold sm:text-7xl text-6xl">Jacob Moore</h1>
         
         <div className="h4 flex sm:flex-row flex-col text-center">
-          <span>Web Developer</span>
+          <span>Frontend Developer</span>
           <span className='hidden sm:block mx-2'>&bull;</span>
           <span>Sacramento, CA</span>
         </div>

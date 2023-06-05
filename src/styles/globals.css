@@ -67,7 +67,7 @@ body {
 }
 
 .project-card {
- @apply flex mt-10 sm:h-64 h-[19.5rem] overflow-hidden bg-gray-200 rounded-lg cursor-pointer hover:shadow-xl transition duration-200;
+ @apply flex mt-10 sm:h-64 h-[17rem] overflow-hidden bg-gray-200 rounded-lg cursor-pointer hover:shadow-xl transition duration-200;
 }
 
 .project-card:hover .project-title {
