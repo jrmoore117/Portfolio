@@ -9,7 +9,7 @@ export default function Home() {
         <title>Jacob Moore - About</title>
       </Head>
       <header className='flex flex-col items-center sm:py-28 py-20'>
-        <h1 className="font-bebas-neue font-bold sm:text-7xl text-6xl">About Jacob Moore</h1>
+        <h1 className="font-bebas-neue font-bold sm:text-7xl text-6xl text-center">About Jacob Moore</h1>
         
         <div className="h4 flex sm:flex-row flex-col text-center">
           <span>Frontend Developer</span>
