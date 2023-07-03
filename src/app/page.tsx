@@ -31,7 +31,7 @@ export default function Home() {
       </header>
       
       <section className='flex flex-col items-center pb-28'>
-        <h2 className='h2'>Portfolio</h2>
+        <h2 className='h2'>Recent Projects</h2>
 
         {projects && projects.map(({ title, description, technologies, image, link }) => (
           /* https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#async-and-await-in-server-components */
